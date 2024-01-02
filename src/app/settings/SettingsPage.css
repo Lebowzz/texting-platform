@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #000000cc;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+#settings-main {
+  padding: 3rem;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(0deg, rgba(65, 65, 65, 0.4) 0%, rgba(65, 65, 65, 0.4) 100%),
+    radial-gradient(50% 50% at 50% 50%, #98f9ff 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(165, 239, 255, 0.2) 0%,
+      rgba(110, 191, 244, 0.04) 77.08%,
+      rgba(70, 144, 212, 0) 100%
+    ),
+    radial-gradient(50% 50% at 50% 50%, #eabfff 0%, rgba(135, 38, 183, 0) 100%),
+    linear-gradient(0deg, #fff 0%, #fff 100%), rgba(255, 255, 255, 0.6);
+}
+
+/* X --------------------------------------------------------------------------------------------- */
+#settings-main #closing {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  background-color: transparent;
+  box-shadow: none;
+}
+#settings-main #closing img {
+  height: 100%;
+  width: 100%;
+}
+/* ----------------------------------------------------------------------------------------------- */
+
+/* spans ----------------------------------------------------------------------------------------- */
+.settings-span {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.settings-span-1 {
+  justify-content: space-between;
+}
+.settings-span span {
+  width: 30vw;
+}
+.settings-span h1 {
+  font-size: 40px;
+  margin-left: 0.5rem;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+/* Divs ----------------------------------------------------------------------------------------- */
+#settings-main div {
+  width: 80vw;
+  margin: 2.5rem 0;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+#settings-main div p {
+  font-size: 24px;
+  font-weight: 300;
+}
+#settings-main #logOut {
+  width: 89vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+/* Buttons -------------------------------------------------------------------------------------- */
+#settings-main button {
+  height: 2.2rem;
+  width: 7rem;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ffffff33;
+  border: none;
+  border-radius: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+/* Switch --------------------------------------------------------------------------------------- */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  margin-right: 1.5rem;
+  width: 3.5em;
+  height: 2em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border: 1px solid #adb5bd;
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 20px;
+  left: 0.27em;
+  bottom: 0.25em;
+  background-color: #adb5bd;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #007bff;
+}
+
+input:checked + .slider:before {
+  transform: translateX(1.4em);
+  background-color: #fff;
+}
+/* ----------------------------------------------------------------------------------------------- */
