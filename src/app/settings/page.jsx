@@ -1,26 +1,27 @@
 import React from "react";
-import "./SettingsPage.css";
+import classes from "./page.module.css";
+import Link from "next/link";
 
 function SettingsPage() {
   return (
-    <main id="settings-main">
-      <span className="settings-span settings-span-1">
-        <span className="settings-span">
+    <main id={classes.settingsmain}>
+      <span className={`${classes.settingsspan} ${classes.settingsspan1}`}>
+        <span className={classes.settingsspan}>
           <img src="icons/gear.png" alt="gear-icon" />
           <h1>Settings</h1>
         </span>
-        <button id="closing">
+        <Link href="/messaging" id={classes.closing}>
           <img src="icons/x-black.png" alt="x" />
-        </button>
+        </Link>
       </span>
       <div>
         <p>Dark Mode</p>
-        <label class="switch">
+        <label className={classes.switch}>
           <input type="checkbox" />
-          <span class="slider"></span>
+          <span className={classes.slider}></span>
         </label>
       </div>
-      <span className="settings-span">
+      <span className={classes.settingsspan}>
         <img src="icons/gear.png" alt="gear-icon" />
         <h1>Account Settings</h1>
       </span>
@@ -41,7 +42,7 @@ function SettingsPage() {
         <button>change</button>
       </div>
 
-      <div id="logOut">
+      <div id={classes.logOut}>
         <button>Log out</button>
       </div>
     </main>

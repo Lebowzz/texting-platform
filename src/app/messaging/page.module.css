@@ -1,0 +1,245 @@
+.messagingmain {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* SIDE BAR ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+.sidebar {
+  height: 100vh;
+  width: 25vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(0deg, rgba(65, 65, 65, 0.4) 0%, rgba(65, 65, 65, 0.4) 100%),
+    radial-gradient(50% 50% at 50% 50%, #98f9ff 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(165, 239, 255, 0.2) 0%,
+      rgba(110, 191, 244, 0.04) 77.08%,
+      rgba(70, 144, 212, 0) 100%
+    ),
+    radial-gradient(50% 50% at 50% 50%, #eabfff 0%, rgba(135, 38, 183, 0) 100%),
+    linear-gradient(0deg, #fff 0%, #fff 100%), rgba(255, 255, 255, 0.6);
+}
+
+/* side bar top ----------------------------------------------------------------------------*/
+.sidebartop {
+  height: 15vh;
+  width: 100%;
+  padding-left: 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+.sidebartop h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.sidebartop div {
+  height: 27.5%;
+  width: 75%;
+  position: relative;
+}
+.sidebartop fieldset {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: none;
+}
+.sidebartop input {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 0 0.8rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.1) 0px 6px 6px;
+}
+.sidebartop button {
+  height: 100%;
+  width: auto;
+  top: 10%;
+  right: 5%;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+}
+.sidebartop img {
+  height: 1.1rem;
+  width: 1.1rem;
+  border: none;
+  border-radius: 5px;
+}
+/* -----------------------------------------------------------------------------------------*/
+
+/* side bar mid ----------------------------------------------------------------------------*/
+.sidebarmid {
+  height: 65vh;
+  width: 80%;
+  position: relative;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sidebarmid div {
+  height: 50%;
+  width: 100%;
+  padding-left: 0.5rem;
+}
+.sidebarmid div h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* -----------------------------------------------------------------------------------------*/
+
+/* side bar end ----------------------------------------------------------------------------*/
+.sidebarend {
+  height: 10vh;
+  width: 80%;
+  position: relative;
+}
+.userinfo {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #d0d0d0;
+  border-radius: 5px;
+}
+.userinfo img {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  border-radius: 5px;
+}
+.userinfo div {
+  height: 30%;
+  width: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+.userinfo div h4 {
+  font-size: 16px;
+}
+.userinfo div p {
+  font-size: 14px;
+}
+.settings {
+  width: 4vw;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+.settings img {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+/* -----------------------------------------------------------------------------------------*/
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* CHAT SPACE ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+.chat {
+  height: 100vh;
+  width: 65vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.messages {
+  height: 85%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.send {
+  height: 12.5%;
+  width: 80%;
+  position: relative;
+}
+.send fieldset,
+.send form {
+  height: 100%;
+  width: 100%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.send input {
+  height: 55%;
+  width: 100%;
+  padding: 0 4rem 0 1rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.send button {
+  height: 2rem;
+  width: 2rem;
+  top: 1.75rem;
+  right: 1rem;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+}
+.send button img {
+  height: 1.75rem;
+  width: 1.75rem;
+}
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* EXTRA BUTTONS |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+.extra {
+  height: 90vh;
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.extra button {
+  height: 3rem;
+  width: 3rem;
+  background-color: #d9d9d9;
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.16) 0px 3px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.extra button img {
+  height: 60%;
+  width: 60%;
+  rotate: 180deg;
+}
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
