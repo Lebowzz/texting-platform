@@ -204,15 +204,15 @@
 .send button {
   height: 2rem;
   width: 2rem;
-  top: 1.75rem;
+  top: 35%;
   right: 1rem;
   position: absolute;
   border: none;
   background-color: transparent;
 }
 .send button img {
-  height: 1.75rem;
-  width: 1.75rem;
+  height: 90%;
+  width: 90%;
 }
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
