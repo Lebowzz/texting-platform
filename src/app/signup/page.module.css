@@ -16,7 +16,11 @@
       rgba(110, 191, 244, 0.04) 77.08%,
       rgba(70, 144, 212, 0) 100%
     ),
-    radial-gradient(50% 50% at 50% 50%, #eabfff 0%, rgba(135, 38, 183, 0) 100%),
+    radial-gradient(
+      100% 100% at 50% 50%,
+      #eabfff 0%,
+      rgba(135, 38, 183, 0) 100%
+    ),
     linear-gradient(0deg, #fff 0%, #fff 100%), rgba(255, 255, 255, 0.6);
 }
 
