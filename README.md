@@ -35,7 +35,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Mongoose
 
@@ -413,7 +413,7 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # JSDoc
 
@@ -511,7 +511,7 @@ the [contributors to JSDoc](https://github.com/jsdoc/jsdoc/graphs/contributors).
 JSDoc is free software, licensed under the Apache License, Version 2.0. See the
 [`LICENSE`](LICENSE) file for more details.
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # apiDoc
 
