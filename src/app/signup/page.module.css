@@ -54,6 +54,7 @@
   height: 5vh;
   width: 70%;
   padding: 0.5rem;
+  color: black;
   background-color: #d9d9d9;
   border: none;
   border-radius: 5px;
@@ -70,6 +71,7 @@
 .signupMain span input {
   height: 5vh;
   width: 45%;
+  color: black;
 }
 
 .signupMain button {
