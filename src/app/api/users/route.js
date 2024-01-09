@@ -48,3 +48,16 @@ export async function POST(request) {
 
   return NextResponse.json({ message: "User created" }, { status: 201 });
 }
+
+export async function GET() {
+  await connectMongoDB();
+  const users = await User.find();
+  return NextResponse.json({ users });
+}
+
+export async function DELELTE(request) {
+  const id = request.nextUrl.searchParams.get("id");
+  await connectMongoDB();
+  await User.findByIdAndDelete(id);
+  return NextResponse.json({ message: "Topic deleted" }, { status: 200 });
+}

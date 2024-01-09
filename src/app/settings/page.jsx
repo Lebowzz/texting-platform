@@ -30,7 +30,7 @@ function SettingsPage() {
         <button>change</button>
       </div>
       <div>
-        <p>Profile Picture</p>
+        <p>Password </p>
         <button>change</button>
       </div>
       <div>
@@ -38,7 +38,7 @@ function SettingsPage() {
         <button>change</button>
       </div>
       <div>
-        <p>Password </p>
+        <p>Profile Picture</p>
         <button>change</button>
       </div>
 
